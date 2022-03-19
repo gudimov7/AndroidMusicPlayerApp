@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicPlayerService</string>
+    <string name="song">Song</string>
+    <string name="playlist">PlayList:</string>
+    <string name="notification">Notification</string>
+    <string name="play">Play</string>
+</resources>

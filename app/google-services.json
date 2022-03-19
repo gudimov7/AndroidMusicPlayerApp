@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "829503653439",
+    "firebase_url": "https://fir-connectivitytest-5c9c9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-connectivitytest-5c9c9",
+    "storage_bucket": "fir-connectivitytest-5c9c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829503653439:android:471b8c3c08a002fd68da8a",
+        "android_client_info": {
+          "package_name": "com.example.authwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829503653439-24pdr8jd23s7hsogilpuir16b5th84ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrOr9HKIlQZv0OYbJfsN-9R7Uqfi6IhQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829503653439-24pdr8jd23s7hsogilpuir16b5th84ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829503653439:android:2b0a799fd15b740f68da8a",
+        "android_client_info": {
+          "package_name": "com.example.firebaseconectivitytest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829503653439-24pdr8jd23s7hsogilpuir16b5th84ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrOr9HKIlQZv0OYbJfsN-9R7Uqfi6IhQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829503653439-24pdr8jd23s7hsogilpuir16b5th84ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829503653439:android:4a6aef30b4bef16b68da8a",
+        "android_client_info": {
+          "package_name": "com.example.musicplayerservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829503653439-24pdr8jd23s7hsogilpuir16b5th84ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrOr9HKIlQZv0OYbJfsN-9R7Uqfi6IhQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829503653439-24pdr8jd23s7hsogilpuir16b5th84ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
