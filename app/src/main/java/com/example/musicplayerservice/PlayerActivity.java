@@ -7,6 +7,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import android.app.Notification;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -106,6 +107,15 @@ public class PlayerActivity extends AppCompatActivity {
     }
 
     private void showNotification() {
+
+        Intent resultIntent = new Intent(PlayerActivity.this, PlayerActivity.class);
+        PendingIntent resultPendingIntent = PendingIntent.getActivity(
+                PlayerActivity.this,
+                1,
+                resultIntent,
+                PendingIntent.FLAG_MUTABLE
+        );
+
         Notification notification = new NotificationCompat
                 .Builder(PlayerActivity.this, MusicNotificationService.MUSIC_CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_baseline_music_note_24)
@@ -114,8 +124,11 @@ public class PlayerActivity extends AppCompatActivity {
                 .setColor(Color.GREEN)
                 .setPriority(NotificationCompat.PRIORITY_LOW)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
+                .setAutoCancel(false)
+                .setContentIntent(resultPendingIntent)
                 .build();
-        notificationManagerCompat.notify(1,notification);
+
+        notificationManagerCompat.notify(1, notification);
     }
 
 
