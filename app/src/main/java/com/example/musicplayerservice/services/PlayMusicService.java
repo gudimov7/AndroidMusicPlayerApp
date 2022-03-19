@@ -16,7 +16,7 @@ public class PlayMusicService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-//        startService(new Intent(PlayMusicService.this,MusicNotificationService.class));
+        startService(new Intent(PlayMusicService.this, MusicNotificationService.class));
     }
 
     @Nullable

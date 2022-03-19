@@ -14,10 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayerService">
+
         <service
-            android:name=".MusicNotificationService"
+            android:name=".services.MusicNotificationService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:stopWithTask="true"/>
+
         <service
             android:name=".services.PlayMusicService"
             android:enabled="true"
@@ -35,6 +39,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".PlayerActivity"
             android:exported="true"

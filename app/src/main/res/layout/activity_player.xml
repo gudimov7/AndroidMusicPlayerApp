@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".PlayerActivity">
 
+    <!-- notification on of switch btn -->
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/main_sw_notOnOF"
         android:layout_width="wrap_content"
@@ -19,7 +20,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="50dp" />
-
+    <!-- player header -->
     <TextView
         android:id="@+id/main_tv_header"
         android:layout_width="wrap_content"
@@ -34,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
+    <!-- player buttons layout -->
     <LinearLayout
         android:id="@+id/main_ll_buttonsLayout"
         android:layout_width="match_parent"
@@ -70,6 +72,8 @@
             android:background="@drawable/ic_baseline_stop_24"/>
 
     </LinearLayout>
+
+    <!-- song title text view -->
     <TextView
         android:id="@+id/main_tv_label"
         android:layout_gravity="center"
@@ -78,5 +82,6 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="16sp" />
+
 
 </LinearLayout>
