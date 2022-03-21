@@ -32,6 +32,11 @@ public class PlayMusicService extends Service {
             player = null;
         }
     }
+    public static void pausePlayer() {
+        if (player.isPlaying())
+            player.pause();
+        else player.start();
+    }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {

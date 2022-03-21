@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.178" />
+        <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/drawable/ic_baseline_pause_12.xml" value="0.178" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/drawable/ic_launcher_background.xml" value="0.178" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/drawable/row_background_shape.xml" value="0.178" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/drawable/row_shape.xml" value="0.178" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/layout/activity_list.xml" value="0.21927083333333333" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/layout/activity_player.xml" value="0.1" />
+        <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/layout/notification_collapsed.xml" value="0.20416666666666666" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/layout/song_list_row.xml" value="0.21927083333333333" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/menu/list_menu.xml" value="0.21927083333333333" />
         <entry key="..\:/code/Android/MusicPlayerService/app/src/main/res/menu/song_menu.xml" value="0.21927083333333333" />
