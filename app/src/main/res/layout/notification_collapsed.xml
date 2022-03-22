@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+    <TextView
+        android:id="@+id/tv_song_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:text="@string/song"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/ib_prevBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_skip_previous_24"/>
+        <ImageButton
+            android:id="@+id/ib_pauseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_pause_24"/>
+        <ImageButton
+            android:id="@+id/ib_nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_skip_next_24"/>
+        <ImageButton
+            android:id="@+id/ib_stopBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_stop_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>
